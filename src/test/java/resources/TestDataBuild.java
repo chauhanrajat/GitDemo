@@ -24,7 +24,7 @@ public class TestDataBuild {
 		l.setLat(-38.383494);
 		l.setLng(33.427362);
 		p.setLocation(l);	
-		
+		System.out.println("Hi this is rajat");
 		return p;
 		
 	}
