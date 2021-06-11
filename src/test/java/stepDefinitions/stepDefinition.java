@@ -37,7 +37,9 @@ public class stepDefinition extends Utils{
 	 public void add_place_payload_with(String name, String language, String address) throws IOException {
 		
 		
-		
+		//tester hun m bhaiji
+		 //making some more changes
+//my name is chauhan
 		 
 		 res=given().spec(requestSpecification())	
 		.body(data.AddplacePayload(name,language,address));
@@ -51,6 +53,8 @@ public class stepDefinition extends Utils{
 		 resspec=  new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 		response=res.when().post(resourceAPI.getResource())
 				.then().spec(resspec).extract().response();
+		 
+		 //chauhansaab maharaj
 	}
 
 	@Then("the api call is success with status code {int}")
