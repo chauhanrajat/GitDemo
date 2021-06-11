@@ -49,6 +49,8 @@ public class stepDefinition extends Utils{
 		 resspec=  new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
 		response=res.when().post(resourceAPI.getResource())
 				.then().spec(resspec).extract().response();
+		 
+		 //chauhansaab maharaj
 	}
 
 	@Then("the api call is success with status code {int}")
