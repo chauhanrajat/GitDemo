@@ -35,9 +35,7 @@ public class stepDefinition extends Utils{
 	 public void add_place_payload_with(String name, String language, String address) throws IOException {
 		
 		
-		//tester hun m bhaiji
-		 //making some more changes
-//my name is chauhan
+		//chauhansaab maharaj
 		 
 		 res=given().spec(requestSpecification())	
 		.body(data.AddplacePayload(name,language,address));
